@@ -1,0 +1,83 @@
+export const translations = {
+  pt: {
+    title: "Pronto para levar sua música ao próximo nível?",
+    subtitle: "Preencha o formulário ao lado para solicitar acesso à nossa plataforma de distribuição musical. Nossa equipe analisará suas informações e entrará em contato.",
+    whatHappensNext: "O que acontece depois?",
+    steps: [
+      "Nossa equipe analisa sua solicitação em até 48 horas",
+      "Você recebe um email com instruções para prosseguir",
+      "Criamos sua conta e você já pode começar a distribuir suas músicas"
+    ],
+    formTitle: "Solicitar Acesso",
+    formSubtitle: "Preencha seus dados para análise",
+    artistName: "Nome Artístico",
+    artistNamePlaceholder: "Seu nome artístico",
+    email: "Email",
+    emailPlaceholder: "seu@email.com",
+    phone: "Telefone para contato",
+    phonePlaceholder: "(00) 00000-0000",
+    platformsTitle: "Plataformas musicais (pelo menos uma)",
+    message: "Mensagem (opcional)",
+    messagePlaceholder: "Conte um pouco sobre sua música e objetivos...",
+    submitButton: "Enviar solicitação",
+    sending: "Enviando...",
+    successTitle: "Solicitação enviada!",
+    successMessage: "Entraremos em contato em breve.",
+    errorTitle: "Erro ao enviar",
+    errorMessage: "Houve um problema ao enviar sua solicitação. Tente novamente mais tarde."
+  },
+  en: {
+    title: "Ready to take your music to the next level?",
+    subtitle: "Fill out the form to request access to our music distribution platform. Our team will review your information and get in touch.",
+    whatHappensNext: "What happens next?",
+    steps: [
+      "Our team reviews your request within 48 hours",
+      "You receive an email with instructions to proceed",
+      "We create your account and you can start distributing your music"
+    ],
+    formTitle: "Request Access",
+    formSubtitle: "Fill in your data for analysis",
+    artistName: "Artist Name",
+    artistNamePlaceholder: "Your artist name",
+    email: "Email",
+    emailPlaceholder: "your@email.com",
+    phone: "Phone",
+    phonePlaceholder: "(00) 00000-0000",
+    platformsTitle: "Music platforms (at least one)",
+    message: "Message (optional)",
+    messagePlaceholder: "Tell us a bit about your music and goals...",
+    submitButton: "Submit request",
+    sending: "Sending...",
+    successTitle: "Request sent!",
+    successMessage: "We'll be in touch soon.",
+    errorTitle: "Error sending",
+    errorMessage: "There was a problem sending your request. Please try again later."
+  },
+  es: {
+    title: "¿Listo para llevar tu música al siguiente nivel?",
+    subtitle: "Completa el formulario para solicitar acceso a nuestra plataforma de distribución musical. Nuestro equipo revisará tu información y se pondrá en contacto.",
+    whatHappensNext: "¿Qué sucede después?",
+    steps: [
+      "Nuestro equipo revisa tu solicitud en 48 horas",
+      "Recibes un correo electrónico con instrucciones para continuar",
+      "Creamos tu cuenta y puedes comenzar a distribuir tu música"
+    ],
+    formTitle: "Solicitar Acceso",
+    formSubtitle: "Completa tus datos para análisis",
+    artistName: "Nombre Artístico",
+    artistNamePlaceholder: "Tu nombre artístico",
+    email: "Correo electrónico",
+    emailPlaceholder: "tu@email.com",
+    phone: "Teléfono de contacto",
+    phonePlaceholder: "(00) 00000-0000",
+    platformsTitle: "Plataformas musicales (al menos una)",
+    message: "Mensaje (opcional)",
+    messagePlaceholder: "Cuéntanos un poco sobre tu música y objetivos...",
+    submitButton: "Enviar solicitud",
+    sending: "Enviando...",
+    successTitle: "¡Solicitud enviada!",
+    successMessage: "Nos pondremos en contacto pronto.",
+    errorTitle: "Error al enviar",
+    errorMessage: "Hubo un problema al enviar tu solicitud. Por favor, inténtalo de nuevo más tarde."
+  }
+};
