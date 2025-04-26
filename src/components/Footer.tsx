@@ -116,13 +116,13 @@ const Footer = () => {
         
         <div className="border-t border-muted mt-8 pt-6 text-center text-muted-foreground text-sm flex flex-col items-center justify-center space-y-2">
           <p>&copy; {new Date().getFullYear()} Brazilian Funk. {t.rights}</p>
-          <Link 
-            to="/termos-de-uso" 
-            className="flex items-center gap-2 hover:text-primary transition-colors"
-          >
-            <FileText className="w-4 h-4" />
-            <span>{t.termsOfUse}</span>
-          </Link>
+          <a 
+  href="/termos-de-uso/" 
+  className="flex items-center gap-2 hover:text-primary transition-colors"
+>
+  <FileText className="w-4 h-4" />
+  <span>{t.termsOfUse}</span>
+</a>
         </div>
       </div>
     </footer>
