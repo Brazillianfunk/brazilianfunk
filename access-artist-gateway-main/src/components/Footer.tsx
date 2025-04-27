@@ -116,11 +116,13 @@ const Footer = () => {
         
         <div className="border-t border-muted mt-8 pt-6 text-center text-muted-foreground text-sm flex flex-col items-center justify-center space-y-2">
           <p>&copy; {new Date().getFullYear()} Brazilian Funk. {t.rights}</p>
-          <a href="/termos-de-uso/termosdeuso-main" class="flex items-center gap-2 hover:text-primary transition-colors">
-  <FileText className="w-4 h-4" />
+          
+          <Link to="/termos-de-uso" className="flex items-center gap-2 hover:text-primary transition-colors">
+  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path d="M9 12h6M9 16h6M13 8h-1m5-4H7a2 2 0 0 0-2 2v16l7-3 7 3V6a2 2 0 0 0-2-2z"/>
+  </svg>
   <span>{t.termsOfUse}</span>
-</a>
-
+</Link>
 
         </div>
       </div>
