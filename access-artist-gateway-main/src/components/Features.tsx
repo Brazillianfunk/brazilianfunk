@@ -42,7 +42,7 @@ const translations = {
       {
         icon: <DollarSign className="h-8 w-8 text-primary" />,
         title: "Pagamentos transparentes",
-        description: "Receba 100% dos seus royalties com total transparência no processo."
+        description: "Receba seus ganhos de forma justa e com transparência."
       }
     ]
   },
