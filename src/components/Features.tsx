@@ -42,8 +42,7 @@ const translations = {
       {
   icon: <DollarSign className="h-8 w-8 text-primary" />,
   title: "Pagamentos transparentes",
-  description: "Tenha controle e transparência total sobre os seus ganhos." // Alterado!
-}
+  description: "Tenha controle e transparência total sobre os seus ganhos." }
 
     ]
   },
