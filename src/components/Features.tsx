@@ -40,10 +40,11 @@ const translations = {
         description: "Orientação profissional em todas as etapas do seu lançamento musical."
       },
       {
-        icon: <DollarSign className="h-8 w-8 text-primary" />,
-        title: "Pagamentos transparentes",
-        description: "Receba 100% dos seus royalties com total transparência no processo."
-      }
+  icon: <DollarSign className="h-8 w-8 text-primary" />,
+  title: "Pagamentos transparentes",
+  description: "Tenha controle e transparência total sobre os seus ganhos." // Alterado!
+}
+
     ]
   },
   en: {
